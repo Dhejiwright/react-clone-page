@@ -1,0 +1,330 @@
+* {
+    margin: 0px;
+    border: 0px;
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+/* header start */
+
+header {
+    width: 205vh;
+    height: 110vh;
+    background-image: url(header.jpg);
+    background-size: cover;
+}
+.head2 {
+    margin-left: 5%;
+    /* width: 80%;
+    padding-top: 40px;
+    height : auto */
+  }
+.navi-buttons {
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /* text-indent: 20px; */
+    color: white;
+}
+.navi-bars {    
+    /* color: white; */
+    border: 0px;
+    padding: 20px 30px;
+    margin: 20px 20px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 35px;
+    color:#063b5d
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+header button {
+    background-color: orangered;
+    width: 200px;
+    height: 50px;
+    border-radius: 0px;
+    margin: inherit;
+    font-size: 25px;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+      min-height: 100vh;
+    }
+    .head2 {
+      margin-left: 5%;
+      width: 80%;
+      padding-top: 40px;
+      height : auto
+    }
+  }
+  @media screen and (max-width :600px) {
+    .navi-bars {
+      background-color: #063b5d;
+      width: 100%;
+    }
+    .navi-buttons {
+      display : none;
+    }
+    .hamburger {
+      display: inline-block;
+    }
+    .nav-links-mobile.active {
+      display: block;
+    }
+    .nav-links-mobile a {
+      display : block;
+      padding: 10px 0;
+    }
+    .logo {
+      display: none;
+    }
+    .mobile-logo {
+      display: inline;
+    }
+  }
+
+/* header end */
+
+/* section1 start */
+
+.section1 button {
+    background-color: orangered;
+    width: 250px;
+    height: 50px;
+    margin: 0px 20px 0px 0px;
+    border-radius: 0px;
+    /* margin: inherit; */
+    font-size: 25px;
+    color: white;
+}
+.section1 {
+    width:  205vh;
+    height: 110vh;
+    background-image: url(info-section-2.png);
+    background-size: cover;
+    text-align: end;
+    /* float: right; */
+    /* border: 0px;
+    margin: 0px;
+    padding: 5px 10px; */
+   
+}
+.section1 h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.section1 img {
+    float: left;
+    image size: 70%;
+    
+}
+/* .sec {
+    border: opx;
+    border-radius: 15px 30px;
+    padding: 20px;
+    margin: 0px 500px;
+} */
+.section1-textlist {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+
+}
+
+.section1-textlist2 {
+    border: 0px;
+    margin: 0px 20px 0px 0px;
+    padding: 30px 25px 15px 25px;
+    background-color: thistle ;
+}
+.section1-textlist1 {
+    /* display: wrap; */
+    border: 0px;
+    margin: 0px 20px 0px 0px;
+    padding: 30px 25px 15px 25px;
+    background-color: mediumslateblue;
+}
+.section1-textlist :hover {
+    background-color: orangered;
+}
+
+/* @media screen and (max-width :700px) {
+    .section1{
+      background-image: url(../images/info-section-2.png);
+      background-size: cover;
+      flex-direction: row;
+    }
+    .section1-textlist {
+      width: 100%;
+    }
+    .point p {
+      color: white;
+    }
+    .point {
+      opacity: 1;
+    }
+  } */
+
+/* section1 end */
+
+/* section2 start  */
+
+.section2 {
+    width:  205vh;
+    height: 110vh;
+    background-image: url(testimonials.jpg);
+    background-size: cover;
+    /* margin: 0px; */
+}
+.section2 h2 {
+    color: midnightblue;
+    /* text-align: left; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    /* float: left; */
+}
+/* .section2-heading {
+    margin: 20px;
+} */
+.section2 button {
+    background-color: orangered;
+    width: 80px;
+    height: 10px;
+    /* border-radius: 0px; */
+    /* margin: inherit; */
+    /* font-size: 25px;
+    color: white; */
+}
+/* .testemonies img {
+    border: 10px rgba(255, 68, 0, 0.993);
+} */
+.section2 img{
+    display: flex;
+    border: 100px orangered;
+    border-radius: 20px;
+    float: left;
+    margin-left: 7%;
+
+}
+.section2 h2 {
+    margin-left: 7%;
+}
+
+.section2-text h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.section2-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: opx;
+    border-radius: 100px 50px;
+    padding: 120px 70px;
+    /* margin: 5px 5px; */
+    margin-right: 10%;
+    margin-top: -10%;
+    background-color: rgba(255, 102, 0, 0.952);
+    float: right;
+}
+
+/* @media screen and (max-width : 700px) {
+    .testimonials {
+      flex-direction: column;
+      padding: 60px 12px;
+    }
+    .testimonials img {
+      width: 100%;
+      right: initial
+    }
+    .testimonials h3 {
+      margin-left: 0;
+    }
+    .user-text {
+      padding: 80px 20px;
+    }
+  } */
+    /* section2 end */
+
+    /* section3 start  */
+    .section3 {
+        width:  205vh;
+        height: 110vh;
+        background-color: rgb(100, 194, 237, 0.4);
+        border-radius: 120px 120px 0px 0px;
+        /* background-image: url(testimonials.jpg);
+        background-size: cover; */
+    }
+   
+    .section3 button {
+        background-color: orangered;
+        width: 250px;
+        height: 50px;
+        /* border-radius: 0px; */
+        /* margin: inherit; */
+        font-size: 25px;
+        color: white;
+    }
+    .section3-text {
+        display: grid;
+        padding-top: 150px;
+        margin-left: 10%;
+    }
+    .section3 img {
+        float: right;
+        
+    }
+
+
+
+
+
+
+
+
+/* section3 end */
+
+/* footer start */
+
+    footer {
+        /* width:  205vh;
+        height: 110vh; */
+        
+    }
+
+    .footersection{
+        display: flex;
+        /* border: 30px solid black; */
+        padding: 0px 0px 0px 100px;
+        margin: 30px 0px 10px 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* proof=head2
+gain=section1
+stand=section1-text
+sec=section1-textlist
+benefits=section1-textlist1
+benefit=section1-textlist2
+testemonies=section2
+anthony=section2-img
+testimonies-text=section2-text
+next-cohort=section3 */
